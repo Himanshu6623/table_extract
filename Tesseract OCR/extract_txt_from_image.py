@@ -6,6 +6,7 @@ myconfig=r"--psm 11 --oem 3"
 pytesseract.pytesseract.tesseract_cmd=r'C:/Program Files/Tesseract-OCR/tesseract.exe'
 text=pytesseract.image_to_string(img,config=myconfig)
 print(text)
+#
 #rows=text.split('\n')
 #table_data=[row.split('\t') for row in rows]
 #for row in table_data:
